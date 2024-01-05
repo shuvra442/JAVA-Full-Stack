@@ -1,13 +1,13 @@
 package BasicOfJava.OPPS;
 
-class Dog{
+class Sog{
   // constructor is the same name as the class name 
   // 1. default constructor
-  Dog(){
+  Sog(){
     System.out.println("Hi My name is Rocky");
   }
   // parameterized constructor
-  Dog(String breed){
+  Sog(String breed){
     System.out.println("I am a " + breed);
     }
     
@@ -15,8 +15,8 @@ class Dog{
 
 public class Constructor {
   public static void main(String[] args) {
-    Dog dog =  new Dog();
-    Dog dog1 =  new Dog("Zermansaport");
+    Sog dog =  new Sog();
+    Sog dog1 =  new Sog("Zermansaport");
   }
 }
 /**
