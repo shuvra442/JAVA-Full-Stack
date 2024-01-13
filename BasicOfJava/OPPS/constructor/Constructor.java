@@ -1,4 +1,4 @@
-package BasicOfJava.OPPS;
+package BasicOfJava.OPPS.constructor;
 
 class Sog{
   // constructor is the same name as the class name 
