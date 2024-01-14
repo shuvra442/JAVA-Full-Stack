@@ -6,7 +6,7 @@ public class UserDefinedExcep {
     try {
       System.out.println(" User defined exception in java ");
       throw new MyName("shuvra 1st");
-    } catch (MyName e) {
+    } catch (Exception e) {
       System.out.println("shuvra 2nd");
       System.out.println(e.getMessage());
     }
@@ -14,7 +14,7 @@ public class UserDefinedExcep {
 }
 class MyName extends Exception{
   public MyName(String s){
-    super(s);
+   super(s);
   }
 }
 
