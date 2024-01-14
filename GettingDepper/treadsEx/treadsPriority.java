@@ -11,9 +11,12 @@ public class treadsPriority {
     TreadsPriorityex tPriorityex=new TreadsPriorityex();
     Thread m1=new Thread(tPriorityex);
     Thread m2=new Thread(tPriorityex);
+    Thread m3=new Thread(tPriorityex);
     m1.setPriority(Thread.MIN_PRIORITY);
-    m2.setPriority(Thread.MAX_PRIORITY);
+    m2.setPriority(Thread.NORM_PRIORITY);
+    m3.setPriority(Thread.MAX_PRIORITY);
     m1.start();
     m2.start();
+    m3.start();
   }
 }
