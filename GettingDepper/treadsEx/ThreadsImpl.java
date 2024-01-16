@@ -16,6 +16,8 @@ public class ThreadsImpl {
     }
     MyJob myJob= new MyJob();
     Thread thread= new Thread(myJob,"Hello");
+    //Starting the thread
+    thread.start();
     String str=thread.getName();
     int str1=thread.getPriority();
     System.out.println(str);

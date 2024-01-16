@@ -3,7 +3,7 @@ package BasicOfJava.Exception;
  import java.io.IOException;
 
 class M{
-  void method() throws IOException{
+  void method() throws IOException {
     throw new IOException("Here define the exception");
   }
 }

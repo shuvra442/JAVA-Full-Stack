@@ -15,7 +15,8 @@ class Men implements Habbit{
 }
 public class InterfaceEx extends Men {
   public static void main(String[] args) {
-    InterfaceEx interfaceEx = new InterfaceEx();
+    // InterfaceEx interfaceEx = new InterfaceEx();
+    Men interfaceEx=new Men();
     interfaceEx.eat();
     interfaceEx.sleep();
   }
