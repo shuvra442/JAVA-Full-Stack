@@ -1,5 +1,3 @@
-package GettingDepper.collections;
-
 /**
  * The default size of ArrayList is 10
  * 

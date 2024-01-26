@@ -1,5 +1,3 @@
-package GettingDepper.collections;
-
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -30,13 +28,13 @@ class Iteration{
       }
       System.out.println();
       // 3.
-      for(Iterator lIterator= lpName.iterator(); lIterator.hasNext();){
+      for(Iterator<String> lIterator= lpName.iterator(); lIterator.hasNext();){
         String strElement=(String)lIterator.next();
         System.out.println(strElement);
       }
       System.out.println();
       // 4.
-      Iterator iterator=lpName.iterator();
+      Iterator<String> iterator=lpName.iterator();
       while(iterator.hasNext()){
        String str=(String)iterator.next();
        System.out.println(str);

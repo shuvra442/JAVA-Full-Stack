@@ -1,5 +1,3 @@
-package GettingDepper.collections;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.stream.Collectors;
