@@ -1,7 +1,5 @@
 package GettingDepper;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class GenericEx {
   public static void main(String[] args) {

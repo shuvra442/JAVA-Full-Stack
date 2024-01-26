@@ -10,7 +10,6 @@ class Sog{
   Sog(String breed){
     System.out.println("I am a " + breed);
     }
-    
 }
 
 public class Constructor {
