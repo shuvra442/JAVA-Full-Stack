@@ -31,5 +31,17 @@ public class SimpleMethod {
     System.out.println("After remove First : "+list);
     list.removeLast();
     System.out.println("After remove Last : "+list);
+    System.out.println("Now to create a new Linked list ::");
+
+    LinkedList <String> list2= new LinkedList<>();
+    list2.add("P");
+    list2.add("Pa");
+    list2.add("Pat");
+    list2.add("Patr");
+    list2.add("Patra");
+    System.out.println("New List is :"+list2);
+    list2.addAll(list);
+    System.out.println(list2);
+
   }
 }
