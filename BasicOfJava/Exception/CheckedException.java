@@ -7,6 +7,7 @@ public class CheckedException {
     Scanner scan = new Scanner("Hello shuvra"); 
     System.out.println("" + scan.nextLine()); 
     System.out.println("Exception Output: " + scan.ioException()); 
+    scan.close();
   }
 }
 

@@ -28,7 +28,9 @@ public class CreatNewFile {
       int i;
       while ((i = fileReader.read()) != -1)
             System.out.println((char)i);
-
+      
+      
+      fileReader.close();
       //  Now its time to delete the file 
       file.delete();
       System.out.println("File deleted succesfully !! ");
