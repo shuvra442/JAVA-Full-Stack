@@ -10,7 +10,8 @@ public class SocServer {
       ServerSocket sos = new ServerSocket(9999);
       Socket soc= sos.accept();
       System.out.println("Client is connected to the server :: ");
-      
+      soc.close();
+      sos.close();
     } catch (Exception e) {
       // TODO: handle exception
       e.printStackTrace();
