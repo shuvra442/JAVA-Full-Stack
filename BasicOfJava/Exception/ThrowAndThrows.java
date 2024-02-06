@@ -8,9 +8,10 @@ package BasicOfJava.Exception;
 
 public class ThrowAndThrows {
 
-  static void add()throws ArithmeticException{
+  static void add() throws ArithmeticException{
     System.out.println("Inside a add()");
-    throw new ArithmeticException("Demo");
+    int c=10/0;
+    throw new ArithmeticException("Demo"+c);
   }
   public static void main(String[] args) throws InterruptedException  {
     Thread.sleep(1000);

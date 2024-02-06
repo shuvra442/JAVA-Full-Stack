@@ -7,7 +7,7 @@ public class UserDefinedExcep {
       System.out.println(" User defined exception in java ");
       throw new MyName("Your name is invalid");
     } catch (MyName e) {
-      System.out.println("Caught the exception");
+      
       System.out.println(e.getMessage());
     }
   }

@@ -7,7 +7,7 @@ class Shap{
 }
 class Square extends Shap{
   void draw(){
-    super.draw(); /* With out super keyword prints only syper class  */
+    // super.draw(); /* With out super keyword prints only syper class  */
     System.out.println("I am square");
   }
 }
